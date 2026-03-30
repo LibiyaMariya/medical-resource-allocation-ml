@@ -35,3 +35,24 @@ Special focus was given to minimizing false negatives (critical patients misclas
 - Scikit-learn  
 
 ## Project Structure
+medical-resource-allocation-ml/
+│── train.py  
+│── data.csv  
+│── requirements.txt  
+│── README.md  
+
+## How to Run
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the model:
+python train.py
+
+## Future Improvements
+- Integration with real-time hospital data systems  
+- Deployment using FastAPI  
+- Use deep learning for advanced diagnosis  
+
+## Author
+Libiya Mariya Jimmy
