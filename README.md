@@ -52,7 +52,15 @@ python train.py
 ## Future Improvements
 - Integration with real-time hospital data systems  
 - Deployment using FastAPI  
-- Use deep learning for advanced diagnosis  
+- Use deep learning for advanced diagnosis
+- ## Limitations
+- The dataset used is small and simulated, which may not reflect real-world hospital complexity  
+- Model performance may vary with larger and more diverse datasets  
+- Does not include real-time data streaming or deployment  
+
+## Reproducibility
+- Random seed fixed at 42 for consistent results  
+- Train-test split ensures reproducibility across runs  
 
 ## Author
 Libiya Mariya Jimmy
