@@ -38,3 +38,7 @@ y_pred = model.predict(X_test)
 # Evaluation
 print("Classification Report:\n")
 print(classification_report(y_test, y_pred))
+from sklearn.metrics import accuracy_score
+
+accuracy = accuracy_score(y_test, y_pred)
+print("Accuracy:", accuracy)
